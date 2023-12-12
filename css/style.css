@@ -63,6 +63,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items:center;
     padding: 15px;
     /* background: url(https://previews.123rf.com/images/karenr/karenr1505/karenr150500053/40296146-pink-and-white-striped-gingham-tile-pattern-repeat-background-that-is-seamless-and-repeats.jpg) center center repeat; */
     /* background-size: contain; */
