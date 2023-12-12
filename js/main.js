@@ -24,7 +24,7 @@ const quotesArr = [
 ];
 
 function generateQuote(){
-    document.querySelector('.quote-container').style.display = "block";
+    document.querySelector('.quote-container').style.display = "flex";
     var randomNum = Math.floor(Math.random()*quotesArr.length+1)-1;
     console.log(randomNum);
     document.querySelector('#quote').innerHTML = `“${quotesArr[randomNum].quote}”`;
