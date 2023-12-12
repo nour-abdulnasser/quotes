@@ -1,0 +1,103 @@
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* position: relative; */
+
+}
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: rgb(196, 180, 189);
+  }
+  
+  ::selection {
+    color: white;
+    background: rgb(196, 180, 189);
+  }
+span{
+    font-size: 25px;
+}
+h1 {
+    font-size: 65px;
+    font-family: 'Kalnia', serif;
+}
+
+button {
+    padding: 15px 20px;
+    /* width: 170px; */
+    border-radius: 15px;
+    background-color: rgb(214, 158, 219);
+    font-family: 'Kalnia', serif;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: black;
+    cursor: pointer;
+}
+body{
+    /* background-color: rgb(232, 208, 231); */
+    background: url(https://previews.123rf.com/images/karenr/karenr1505/karenr150500053/40296146-pink-and-white-striped-gingham-tile-pattern-repeat-background-that-is-seamless-and-repeats.jpg) scroll ;
+    background-size: cover;
+    position: relative;
+}
+.layer{
+    height: 100%;
+    width: 100%;
+    /* height: 100vh;
+    width: 100vw; */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff3d;
+
+}
+.quote-container{
+    text-align: center;
+
+    border-radius: 12px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    /* background: url(https://previews.123rf.com/images/karenr/karenr1505/karenr150500053/40296146-pink-and-white-striped-gingham-tile-pattern-repeat-background-that-is-seamless-and-repeats.jpg) center center repeat; */
+    /* background-size: contain; */
+    background-color: #ffffff89;
+    width: 450px;
+    display: none;
+    /* box-shadow: 1px 1px 10px 2px rgb(202, 187, 203); */
+    /* height: 450px; */
+}
+#quote{
+    font-family: 'Source Serif 4', serif;
+    font-size: 1.5rem;
+}
+.quote-action{
+    /* position: absolute; */
+    /* bottom: -100px; */
+    /* bottom: -250px; */
+    text-align: center;
+    /* background-color: blue; */
+    justify-self: end;
+
+}
+.quote-action p{
+    text-align: center;
+    font-family: 'Kalnia', serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+#author{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: rgb(237, 200, 241);
+    color: rgb(70, 70, 70);
+}
